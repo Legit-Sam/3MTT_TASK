@@ -1,0 +1,196 @@
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #eee;
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 40%;
+   
+}
+
+.header_img {
+    width: 60px;
+    height: 60px;
+    
+}
+
+.header_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header_text {
+    font-size: 34px;
+    font-weight: 700;
+    color: #333;
+   
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 0 5%;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #00388B;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+.action_btn {
+    display: flex;
+    gap: 10px;
+}
+
+.action_btn a {
+    background: #00388B;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.action_btn a:hover {
+    background: #002566;
+}
+
+/* Toggler (For smaller screens) */
+.toggler {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.toggler span {
+    width: 25px;
+    height: 3px;
+    background: #333;
+}
+
+.hero {
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .search-bar select,
+  .search-bar button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-bar select {
+    background-color: white;
+    color: #3d1b70;
+    cursor: pointer;
+  }
+  
+  .search-bar button {
+    background-color: #1c6dd0;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #174ea0;
+  }
+  
+  .popular-searches {
+    margin-top: 2rem;
+  }
+  
+  .popular-searches h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .search-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .search-tags button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-tags button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+
+
+
+
