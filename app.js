@@ -1,6 +1,7 @@
 const navBar = document.querySelector('nav');
 const OpenBtn = document.querySelector('#open');
 const closeBtn = document.querySelector('#close');
+const employeeSection = document.querySelector('.employee');
 
 console.log(navBar, OpenBtn);
 
@@ -15,3 +16,15 @@ closeBtn.addEventListener('click', () => {
     closeBtn.style.display = 'none'; 
     OpenBtn.style.display = 'inline'; 
 });
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  observer.observe(employeeSection);
+
+
