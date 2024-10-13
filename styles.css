@@ -445,7 +445,7 @@
 }
 
 .upload_text {
-    color: white;
+    color: #333;
     max-width: 50%;
 }
 
@@ -805,7 +805,7 @@
           }
   
   
-  
+ 
   
   .upload_text{
       display: flex;
@@ -980,20 +980,19 @@
      
   
       .upload{
-          flex-direction: column;
-          margin-top: 30px;
-          width: 100%;
+        flex-direction: column;
       }
   
       .upload img{
           height: 30vh;
           margin-top: 90px;
+          width: 80%;
       }
   
       .upload_text{
           display: flex;
           flex-direction: column;
-          width: 100%;
+          width: 120vw;
           color: #000;
           align-items: center;
           justify-content: center;
