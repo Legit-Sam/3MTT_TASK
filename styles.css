@@ -422,37 +422,58 @@
   
   
   
-  .upload{
-      width: 100vw;
-      display: flex;
-      margin-top: 20px;
-      display: flex;
-      height: 50vh;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 30px;
-  }
-  
-  .upload_text{
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      color: #000;
-      line-height: 2;
-      padding: 0 5%;
-  }
-  
-  .upload_text a{
-      background: #00388B;
-      color: #fff;
-      border-radius: 20px;
-      padding: 7px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-  }
-  
+  .upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 40px;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.upload.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.upload img {
+    max-width: 45%; /* Adjust based on design preference */
+    border-radius: 10px;
+}
+
+.upload_text {
+    color: white;
+    max-width: 50%;
+}
+
+.upload_text h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.upload_text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.upload_text a {
+    color: #fff;
+    background-color: #4f46e5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.upload_text a:hover {
+    background-color: #3b3ecf;
+}
+
   .jobs {
       width: 100%;
       margin-top: 40px;

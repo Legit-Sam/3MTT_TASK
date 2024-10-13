@@ -2,6 +2,8 @@ const navBar = document.querySelector('nav');
 const OpenBtn = document.querySelector('#open');
 const closeBtn = document.querySelector('#close');
 const employeeSection = document.querySelector('.employee');
+const uploadSection = document.querySelector('.upload');
+
 
 console.log(navBar, OpenBtn);
 
@@ -26,5 +28,17 @@ const observer = new IntersectionObserver((entries) => {
   }, { threshold: 0.2 });
 
   observer.observe(employeeSection);
+
+
+  const newObs = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+}, { threshold: 0.2 });
+
+newObs.observe(uploadSection);
+
 
 
