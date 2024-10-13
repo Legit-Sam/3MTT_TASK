@@ -129,7 +129,7 @@ nav ul li a:hover {
 
 .hero {
   text-align: center;
-  width: 100vw;
+  width: 100%;
   margin-top: 130px;
   height: 40vh;
   padding: 0 5%;
@@ -223,7 +223,8 @@ main{
     position: relative;
      display: flex;
      flex-direction: column;
-     width: 100%;
+     height: 100%;
+     width: max-content;
 }
 
 
@@ -500,9 +501,7 @@ main{
 
 }
 
-footer{
-   
-}
+
 
 
 .footer_nav{
@@ -514,7 +513,7 @@ footer{
     width: 100%;
     border-bottom: 1px solid #fff;
     position: absolute;
-    bottom: -20%;
+    bottom: -27%;
     width: 100%;
     height: 12vh;
     display: flex;
@@ -1006,7 +1005,7 @@ footer{
     gap: 10px;
     justify-content: center;
     bottom: 0;
-    font-size: 13px;
+    font-size: 11px;
     align-items: center;
     
 }
