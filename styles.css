@@ -352,7 +352,15 @@
       width: 100%;
       height: 50vh;
       overflow: hidden;
+      opacity: 0; 
+      transform: translateY(-100px); 
+      transition: all 0.6s ease-in-out;
   }
+
+  .carrer.show {
+    opacity: 1; 
+    transform: translateY(0); 
+}
   
   .carrer_aside{
       display: flex;
