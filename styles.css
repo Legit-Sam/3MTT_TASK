@@ -1005,7 +1005,7 @@
     
     .upload img {
         min-width: 80%; 
-        max-height: 20vh;
+        max-height: 30vh;
         object-fit: cover; 
         margin-top: 20px;
         border-radius: 8px; 
@@ -1100,6 +1100,9 @@
       
       }
       
+      .carrer{
+        height: 130vh;
+      }
   
   
   .footer_nav ul{
