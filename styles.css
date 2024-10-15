@@ -636,7 +636,7 @@
   
   
   
-  @media screen and (min-width: 850px) and (max-width: 1350px) {
+  @media screen and (min-width: 900px) and (max-width: 1350px) {
     body {
         position: relative;
         margin: 0;
@@ -838,7 +838,7 @@
   
   
   
-  @media screen and (max-width:900px){
+  @media screen and (max-width:850px){
       body{
           position: relative;
           overflow-x: hidden;
@@ -846,7 +846,7 @@
       }    
   
       header{
-          width: 100%;
+          width: 100wv;
           height: 10vh;
       }
   
@@ -857,6 +857,9 @@
       .carerr_buttons{
           justify-content: space-between;
       }
+      main{
+        width: 100%;
+      }
   
       .many{
           display: flex;
@@ -866,6 +869,7 @@
   
       .carrer{
           height: 100vh;
+          width: 100%;
       }
   
       .carrer_aside{
