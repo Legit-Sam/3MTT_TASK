@@ -334,6 +334,10 @@
       border-radius: 25px;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      margin-bottom: 10px;
+  }
+  .card_btn a{
+    color: #fff;
   }
   
   .card_btn:hover {
@@ -609,10 +613,10 @@
       color: #4f46e5;
   }
   
-  .footer_nav ul li a::after {
+  .footer_nav ul li::after {
       content: "";
-      display: inline-block;
-      height: 17px;
+      display: inline-flex;
+      height: 10px;
       width: 2px;
       margin-left: 8px;
       background-color: #fff;
@@ -742,29 +746,24 @@
           .employee{
             flex-direction: column;
             margin-top: 100px;
-            height: 75vh;
+            height: 50vh;
             width: 80%;
         }
 
         .employee a{
-            background: red;
-            width: 20%;
+            width: 30%;
         }
     
     
         .employee .right{
-            width: 80%;
+            width: 50%;
             align-items: center;
             display: flex;
             justify-content: center;
             margin-bottom: 20px;
         }
         
-        .employee .right img{
-            width: 80%;
-          
-        
-        }
+      
         
         .left{
            min-width:80%;
@@ -901,11 +900,15 @@
       .hero{
           height: 80vh;
           overflow: hidden;
-          max-width:100%;
+          width:70%;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          margin: 15px auto;
       }
   
       .hero h1{
-          font-size: 25px;
+          font-size: 20px;
           margin-top:10;
           margin-bottom: -30px;
   
@@ -981,18 +984,20 @@
   
       .upload{
         flex-direction: column;
+        margin: 10px auto;
+        width: 100%;
       }
   
       .upload img{
           height: 30vh;
           margin-top: 90px;
-          width: 80%;
+          width: 100%;
       }
   
       .upload_text{
-          display: flex;
+        
           flex-direction: column;
-          width: 120vw;
+          width: 130vw;
           color: #000;
           align-items: center;
           justify-content: center;
@@ -1024,7 +1029,15 @@
           gap:10px;
           align-items: center;
       }
+
+      .career_header{
+        margin: auto 100px;
+      }
       
+      .text{
+        margin: auto 80px;
+
+      }
       .fit{
           flex-direction: column;
           gap: 10px;
@@ -1035,7 +1048,9 @@
           flex-direction: column;
           margin-top: 100px;
           height: 65vh;
-          width: 100%;
+          width: 65%;
+          margin: 35px auto;
+
       }
   
   
@@ -1077,7 +1092,7 @@
   }
   
   .footer_nav ul li a{
-      font-size: 14px;
+      font-size: 12px;
   }
   
   .footer_nav{
