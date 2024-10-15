@@ -843,6 +843,7 @@
   @media screen and (max-width:900px){
       body{
           position: relative;
+          overflow-x: hidden;
          
       }    
   
