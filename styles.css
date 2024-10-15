@@ -996,31 +996,7 @@
       }
      
   
-      .upload{
-        flex-direction: column;
-        width: 100%;
-      }
-  
-      .upload img{
-          height: 20vh;
-          margin-top: 90px;
-          width: 100%;
-      }
-  
-      .upload_text{
-          flex-direction: column;
-          width: 100%;
-          color: #000;
-          align-items: center;
-          justify-content: center;
-          line-height: 2;
-      }
-  
-      .upload_text a{
-          width: 70%;
-          margin-bottom: 40px;
-      }
-      
+    
       .jobs h1{
           margin-top: 50px;
           width: 100%;
@@ -1112,5 +1088,9 @@
      
   
   }
+
+  .footer_nav ul li::after {
+    display: none;
+}
   
   }
