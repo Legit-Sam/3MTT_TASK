@@ -1004,7 +1004,7 @@
     }
     
     .upload img {
-        width: 100%; 
+        min-width: 80%; 
         max-height: 20vh;
         object-fit: cover; 
         margin-top: 20px;
@@ -1014,7 +1014,7 @@
     .upload_text {
         display: flex;
         flex-direction: column;
-        width: 100%; 
+        min-width: 100%; 
         color: #000;
         align-items: center;
         justify-content: center;
