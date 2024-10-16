@@ -136,7 +136,7 @@ h1 {
 
 
 .services {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     text-align: center;
 }
@@ -195,11 +195,48 @@ h1 {
     background-color: #003d82;
 }
 
+.our_story{
+    width: 100%;
+    background: linear-gradient(rgba(6, 64, 226, 0.753), rgba(14, 27, 211, 0.5)), url(/images/city.jpeg);
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.our_story h1{
+    display: flex;
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: start;
+    width: 100%;
+    padding: 0 5%;
+}
+
+
+.our_story p{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: start;
+    width: 100%;
+    padding: 0 5%;
+
+}
+
+.mission{
+    margin-bottom: 130px;
+}
 
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
    body{
     width: 100%;
    }
@@ -264,6 +301,16 @@ h1 {
     min-width: 60vw;
     color: #333;
 }
+
+.people_text{
+    text-align: center;
+}
+
+.people_text h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 .people_img img{
     width: 100%;
     border-radius: 2%;
@@ -292,6 +339,19 @@ h1 {
 
 .service-content {
     width: 100%;
+}
+
+
+.our_story h1{
+   
+    font-size: 50px;
+}
+
+
+.our_story p{
+    font-size: 20px;
+
+
 }
 
 
