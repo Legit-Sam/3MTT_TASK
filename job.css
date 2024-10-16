@@ -64,7 +64,7 @@ body {
   }
 
 
-  @media screen and (min-width: 900px) and (max-width: 1200px) {
+  @media screen and (min-width: 1000px) and (max-width: 1200px) {
     .footer_nav{
       min-width: 100%;
       position: absolute;
@@ -89,7 +89,7 @@ body {
 
 
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 900px) {
     .footer_nav{
       min-width: 100%;
       position: absolute;
@@ -110,8 +110,8 @@ body {
       padding: 1.5rem;
     align-content: center;
     justify-content: center;
-      width: 400px;
-      height: 30vh;
+      width: 350px;
+      height: 34vh;
       margin-bottom: 1rem;
     }
   }
