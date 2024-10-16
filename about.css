@@ -192,21 +192,20 @@ h1 {
 }
 
 .animate-left {
-    transform: translateX(-100px); /* Move out of view to the left */
+    transform: translateX(-100px); 
 }
 
 .animate-right {
-    transform: translateX(100px); /* Move out of view to the right */
+    transform: translateX(100px); 
 }
 
 .animate-top {
-    transform: translateY(-100px); /* Move out of view to the top */
+    transform: translateY(-100px); 
 }
 
-/* Active class: Animates back to normal */
 .actives {
     opacity: 1;
-    transform: translateX(0) translateY(0); /* Bring to original position */
+    transform: translateX(0) translateY(0); 
 }
 
 .btn {
@@ -360,6 +359,10 @@ footer .footer_nav{
     .our_story p {
         font-size: 20px;
         line-height: 1.5;
+    }
+
+    .our_story{
+        height: 100vh;
     }
     .mission {
         margin-bottom: 130px;
