@@ -241,7 +241,7 @@ footer .footer_nav{
 }
 
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
    body{
     min-width: 100%;
    }
@@ -375,5 +375,128 @@ footer .footer_nav{
 
 
 
+} */
+
+@media screen and (max-width: 1000px) {
+    body {
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        min-width: 100vw; /* Ensure full width */
+    }
+
+    .about_hero {
+        width: 100%; /* Full width */
+        min-width: 100%; /* Ensure no min-width limit */
+    }
+
+    .about_text h1 {
+        margin-top: 30px;
+        font-size: 30px;
+        color: #fff;
+        text-align: center; /* Centered text */
+    }
+
+    .about_text p {
+        font-size: 15px;
+        text-align: center; /* Centered text */
+    }
+
+    .posts {
+        width: 100%; /* Full width */
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .posts_container {
+        display: grid;
+        grid-template-columns: 1fr; /* One column layout */
+        width: 100%; /* Full width */
+        gap: 0px;
+    }
+
+    .post_1 h1, .post_2 h1 {
+        font-size: 18px;
+        display: flex;
+        margin: 0 5%;
+        align-items: start;
+        text-align: start;
+        justify-content: start;
+    }
+
+    .post {
+        display: flex;
+        align-items: flex-start;
+        width: 100%; /* Full width */
+    }
+
+    .icon {
+        margin-right: -40px; /* Adjust as needed */
+    }
+
+    .text h3 {
+        margin: 0;
+        font-size: 18px;
+        min-width: 60vw; /* Consider changing to max-width for better responsiveness */
+        color: #333;
+    }
+
+    .people_text {
+        text-align: center;
+    }
+
+    .people_img img {
+        width: 100%; /* Full width */
+        border-radius: 2%;
+    }
+
+    .services {
+        width: 100%; /* Full width */
+    }
+
+    .services h1 {
+        font-size: 1.2rem;
+    }
+
+    .service-card {
+        flex-direction: column;
+        width: 100%; /* Full width */
+    }
+
+    .service-card img {
+        width: 90%;
+        display: flex;
+        margin: 0 auto; /* Center the image */
+    }
+
+    .service-content {
+        width: 100%; /* Full width */
+    }
+
+    .our_story h1 {
+        font-size: 50px;
+        text-align: center; /* Centered text */
+    }
+
+    .our_story p {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center; /* Centered text */
+    }
+
+    .mission {
+        margin-bottom: 130px;
+    }
+
+    footer .footer_nav {
+        position: relative; /* Change to relative if you want it to scroll with content */
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%; /* Full width */
+        height: 6vh;
+    }
 }
+
+
 
