@@ -4,9 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job Listings - Confluence Careers</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!-- Add this link to the head section of your HTML -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="job.css">
 </head>
 <body>
+    <header>
+        <div class="header">
+           <div class="header_img">
+             <a href="/">
+               <img src="images/download.jpeg" alt="">
+             </a>
+           </div>
+           <div class="header_text">
+               Confluence Career
+           </div>
+        </div>
+           <nav>
+               <ul>
+                   <li><a href="/">Home</a></li>
+                   <li><a href="./job-listing.html">Job Listings</a></li>
+                   <li><a href="">Companies</a></li>
+                   <li><a href="">Blog</a></li>
+                   <li><a href="./about.html">About US</a></li>
+                   <li><a href="">Contact US</a></li>
+               </ul>
+          
+           <div class="action_btn">
+              <a href="#">Login</a>
+              <a href="#">Sign Up</a>
+           </div>
+   
+          
+       </nav>
+   
+       <div class="toggler">
+           <span id="open" class="material-symbols-outlined">
+               menu
+               </span>
+           <span id="close" class="material-symbols-outlined">
+               close
+               </span>
+         
+       </div>
+       </header>
   
 
   <main>
@@ -16,10 +59,29 @@
         <!-- Jobs will be dynamically loaded here -->
       </div>
     </section>
+
+
   </main>
+
+  <footer>
+    <div class="footer_nav">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="">Job Listings</a></li>
+        <li><a href="">Companies</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About US</a></li>
+        <li><a href="">Contact US</a></li>
+    </ul>
+    
+       
+</div>
+</footer>
+  
 
  
 
   <script src="jobs.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

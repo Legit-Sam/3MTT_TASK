@@ -68,12 +68,14 @@
       align-items: center;
       gap: 10px;
       width: 100%;
+      color: #333;
       justify-content: end;
   }
   
   nav ul {
       display: flex;
      gap: 14px;
+     color: #333;
   
       
   }

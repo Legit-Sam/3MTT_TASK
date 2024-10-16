@@ -4,43 +4,35 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    color: #333;
   }
   
   
   
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
   
   h2 {
     text-align: center;
     margin: 2rem 0;
+    margin-top:6rem;
   }
   
   .job-list {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 2rem;
+    line-height: 1.8;
+
   }
+
+
   
   .job-card {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 1.5rem;
+    width: 1200px;
+    height: 32vh;
     margin-bottom: 1rem;
   }
   
@@ -51,12 +43,75 @@ body {
   .apply-btn {
     background-color: #004080;
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    display: flex;
+    width: 40%;
   }
   
   .apply-btn:hover {
     background-color: #003060;
+  }
+
+  .footer_nav{
+    min-width: 100%;
+    position: absolute;
+    bottom: -610rem;
+    left: 0;
+    right: 0;
+  }
+
+
+  @media screen and (min-width: 900px) and (max-width: 1200px) {
+    .footer_nav{
+      min-width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 6vh;
+    }
+
+    .job-card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 1.5rem;
+    align-content: center;
+    justify-content: center;
+      width: 600px;
+      height: 30vh;
+      margin-bottom: 1rem;
+    }
+  }
+
+
+
+  @media screen and (max-width: 850px) {
+    .footer_nav{
+      min-width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 3vh;
+    }
+
+    .job-list{
+      margin-bottom: 100px;
+    }
+
+    .job-card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 1.5rem;
+    align-content: center;
+    justify-content: center;
+      width: 400px;
+      height: 30vh;
+      margin-bottom: 1rem;
+    }
   }
