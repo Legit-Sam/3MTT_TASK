@@ -101,6 +101,8 @@ body {
 
     .job-list{
       margin-bottom: 100px;
+      width: 100%;
+     
     }
 
     .job-card {
@@ -110,7 +112,7 @@ body {
       padding: 1.5rem;
     align-content: center;
     justify-content: center;
-      width: 350px;
+      width: 400px;
       height: 34vh;
       margin-bottom: 1rem;
     }
