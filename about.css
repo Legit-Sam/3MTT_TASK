@@ -200,7 +200,10 @@ h1 {
 
 
 @media screen and (max-width: 800px) {
-   .about_hero{
+   body{
+    width: 100%;
+   }
+    .about_hero{
     width: 100%;
    }
     .about_text h1{
