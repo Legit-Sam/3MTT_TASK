@@ -718,6 +718,10 @@
         padding: 20px;
     }
 
+    .popular-searches{
+        display: none;
+    }
+
     .action_btn a {
         width: 50%; /* Adjusted button width */
         text-align: center;
@@ -854,6 +858,12 @@
           overflow-x: hidden;
          
       }    
+
+      .popular-searches{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
   
       header{
           width: 100wv;
