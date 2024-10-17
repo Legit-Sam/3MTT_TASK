@@ -1,0 +1,121 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color:#C7B8EA; /* Purple background */
+    color: #ffffff; /* White text color for readability */
+    line-height: 1.6;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Blog listing section */
+.blog-listing {
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.blog-listing h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffd700; /* Gold color for the heading */
+}
+
+/* Blog post styling */
+.blog-post {
+    background-color: #4b0082; /* Indigo shade for blog posts */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold color for post titles */
+}
+
+.blog-post h3 a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.blog-post h3 a:hover {
+    text-decoration: underline;
+}
+
+.blog-post p {
+    margin-bottom: 15px;
+    color: #e0e0e0; /* Light gray for the body text */
+}
+
+/* Blog image styling */
+.blog-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* "Read More" link styling */
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #ffd700;
+}
+
+.read-more:hover {
+    color: #ffa500; /* Lighter shade of gold on hover */
+    border-bottom-color: #ffa500;
+}
+.footer_nav{
+    position: absolute;
+    bottom: -110rem;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .blog-post {
+        padding: 15px;
+    }
+
+    .blog-listing h2 {
+        font-size: 2em;
+    }
+
+    .blog-post h3 {
+        font-size: 1.5em;
+    }
+
+    .blog-image {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .footer_nav{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .blog-listing {
+        margin-bottom: 100px;
+        
+    }
+}
